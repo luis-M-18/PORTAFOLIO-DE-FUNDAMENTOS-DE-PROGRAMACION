@@ -32,7 +32,17 @@ módulo = %
 potenciación = **
 ```
 ### Suma
-
+```python
+#primero creamos dos variables y les asignamos un valor a cada una
+num1 = 10
+num2 = 3
+#despues creamos otra variable que sera donde se almacenara nuestro resultado
+result = 0
+#ahora presentamos las dos variables acompañados del operador suma
+result = (num1 + num2)
+#por ultimo presentamos un print para imprimir nuestro resultado
+print=(result)
+```
 ### Resta
 
 ### Multiplicación
