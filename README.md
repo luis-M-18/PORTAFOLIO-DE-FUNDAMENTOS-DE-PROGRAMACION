@@ -106,6 +106,21 @@ print(result)
 #resultado 
 [output] 1
 ```
+### Potenciación
+Para realizar una potenciación en Python seguimos los siguientes pasos:
+```python
+#primero creamos dos variables y les asignamos valores
+num1 = 3
+num2 = 4
+#después creamos otra variable que sera donde se almacenara nuestro resultado
+result = 0
+#ahora presentamos las dos variables acompañados del operador potenciación
+result = (num1 ** num2)
+#por último presentamos un print para imprimir nuestro resultado
+print(result)
+#resultado 
+[output] 81
+```
 # Tipos de datos en Python
 
 ## Integer
