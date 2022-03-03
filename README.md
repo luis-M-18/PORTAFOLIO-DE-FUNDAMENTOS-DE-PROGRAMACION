@@ -42,7 +42,7 @@ result = 0
 #ahora presentamos las dos variables acompañados del operador suma
 result = (num1 + num2)
 #por ultimo presentamos un print para imprimir nuestro resultado
-print=(result)
+print(result)
 #resultado
 [output] 13
 ```
