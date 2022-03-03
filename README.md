@@ -32,6 +32,7 @@ módulo = %
 potenciación = **
 ```
 ### Suma
+Para realizar una suma en Python seguimos los siguientes pasos:
 ```python
 #primero creamos dos variables y les asignamos un valor a cada una
 num1 = 10
@@ -46,7 +47,20 @@ print=(result)
 [output] 13
 ```
 ### Resta
-
+Para realizar una resta en Python seguimos los siguientes pasos:
+```pyhton
+#primero creamos dos variables y les asignamos un valor a cada una
+num1 = 20
+num2 = 8
+#despues creamos otra variable que sera donde se almacenara nuestro resultado
+result = 0
+#ahora presentamos las dos variables acompañados del operador resta
+result = (num1 - num2)
+#por ultimo presentamos un print para imprimir nuestro resultado
+print=(result)
+#resultado
+[output] 12
+```
 ### Multiplicación
 
 ### División
