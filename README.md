@@ -10,7 +10,16 @@ variable = 60
 #donde la palabra "variable" es donde se guarda la información y el signo "=" nos indica cual es este valor, que en este caso es "60"
 ```
 ## Asignando valores a una variable
-
+```python
+variable = 10
+vari = "Hola mundo"
+#aqui el valor que esta despues del "=" es el valor asignado a nuestra variable
+```
+Tambien podemos asignar multiples variables en una sola linea
+```python
+x, y, z = 10, 20, 30
+#donde segun el orden corresponde los valores de esta forma "x = 10", "y = 20" y "z = 30"
+```
 ## Operadores básicos
 
 ### Suma
