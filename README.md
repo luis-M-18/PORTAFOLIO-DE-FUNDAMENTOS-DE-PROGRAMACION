@@ -5,11 +5,12 @@ Es un lenguaje de programación versátil multiplataforma y multiparadigma que s
 Una variable es un nombre para representar un valor de un dato, por ejemplo, si tenemos un programa que suma dos número, necesitamos un nombre para identificar el valor1 y el valor2 (mira, esto mismo nos serviría como variables, valor1 y valor2 podrían ser el nombre de nuestras variables)
 ## Nombrando una variable
 Podemos asignar el nombre que queramos, respetando no usar las palabras reservadas de Python ni espacios, guiones o números al principio.
-# Válido
+´´´# Válido
 _variable = 10
 vari_able = 20
 variable10 = 30
 variable = 60
+´´´
 ## Asignando valores a una variable
 
 ## Operadores básicos
