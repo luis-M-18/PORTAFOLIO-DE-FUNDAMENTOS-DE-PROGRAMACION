@@ -64,7 +64,18 @@ print(result)
 ### Multiplicación
 Para realizar una multiplicación en Python seguimos los siguients pasos:
 ```python
-
+#primero creamos dos variables y les asignamos valores
+num1 = 15
+num2 = 3
+#despues creamos otra variable que sera donde se almacenara nuestro resultado
+result = 0
+#ahora presentamos las dos variables acompañados del operador multiplicación
+result = (num1 * num2)
+#por ultimo presentamos un print para imprimir nuestro resultado
+print(result)
+#resultado 
+[output] 45
+```
 ### División
 
 ### Módulo
