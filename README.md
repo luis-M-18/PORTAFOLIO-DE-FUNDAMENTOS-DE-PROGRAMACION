@@ -58,7 +58,7 @@ result = 0
 result = (num1 - num2)
 #por ultimo presentamos un print para imprimir nuestro rsultado
 print(result)
-#resultado
+#resultado 
 [output] 5
 ```
 ### Multiplicación
