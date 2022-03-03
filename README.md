@@ -42,6 +42,8 @@ result = 0
 result = (num1 + num2)
 #por ultimo presentamos un print para imprimir nuestro resultado
 print=(result)
+#resultado
+[output] 13
 ```
 ### Resta
 
