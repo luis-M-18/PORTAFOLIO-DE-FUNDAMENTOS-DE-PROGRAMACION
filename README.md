@@ -49,17 +49,17 @@ print=(result)
 ### Resta
 Para realizar una resta en Python seguimos los siguientes pasos:
 ```pyhton
-#primero creamos dos variables y les asignamos un valor a cada una
+#primero creamos dos variables y les asignamos valores
 num1 = 20
-num2 = 8
+num2 = 15
 #despues creamos otra variable que sera donde se almacenara nuestro resultado
 result = 0
 #ahora presentamos las dos variables acompañados del operador resta
 result = (num1 - num2)
-#por ultimo presentamos un print para imprimir nuestro resultado
+#por ultimo presentamos un print para imprimir nuestro rsultado
 print=(result)
 #resultado
-[output] 12
+[output] 5
 ```
 ### Multiplicación
 
