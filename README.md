@@ -21,7 +21,16 @@ x, y, z = 10, 20, 30
 #donde segun el orden corresponde los valores de esta forma "x = 10", "y = 20" y "z = 30"
 ```
 ## Operadores básicos
-
+Un operador aritmético toma dos operandos como entrada, realiza un cálculo y devuelve el resultado.
+```python
+suma = +
+resta = -
+multiplicación = *
+división = /
+división = //
+módulo = %
+potenciación = **
+```
 ### Suma
 
 ### Resta
