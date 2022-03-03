@@ -56,12 +56,13 @@ num2 = 15
 result = 0
 #ahora presentamos las dos variables acompañados del operador resta
 result = (num1 - num2)
-#por ultimo presentamos un print para imprimir nuestro rsultado
+#por ultimo presentamos un print para imprimir nuestro resultado
 print(result)
 #resultado 
 [output] 5
 ```
 ### Multiplicación
+Para realizar una multiplicación en Python seguimos los siguients pasos:
 
 ### División
 
