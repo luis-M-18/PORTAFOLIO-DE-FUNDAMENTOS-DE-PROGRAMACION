@@ -92,7 +92,20 @@ print(result)
 [output] 8
 ```
 ### Módulo
-
+Para realizar un módulo en Python seguimos los siguientes pasos:
+```python
+#primero creamos dos variables y les asignamos valores
+num1 = 15
+num2 = 2
+#después creamos otra variable que sera donde se almacenara nuestro resultado
+result = 0
+#ahora presentamos las dos variables acompañados del operador módulo
+result = (num1 % num2)
+#por último presentamos un print para imprimir nuestro resultado
+print(result)
+#resultado 
+[output] 1
+```
 # Tipos de datos en Python
 
 ## Integer
