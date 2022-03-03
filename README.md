@@ -48,7 +48,7 @@ print(result)
 ```
 ### Resta
 Para realizar una resta en Python seguimos los siguientes pasos:
-```pyhton
+```python
 #primero creamos dos variables y les asignamos valores
 num1 = 20
 num2 = 15
@@ -63,6 +63,7 @@ print(result)
 ```
 ### Multiplicación
 Para realizar una multiplicación en Python seguimos los siguients pasos:
+```python
 
 ### División
 
