@@ -41,7 +41,7 @@ num2 = 3
 result = 0
 #ahora presentamos las dos variables acompañados del operador suma
 result = (num1 + num2)
-#por ultimo presentamos un print para imprimir nuestro resultado
+#por último presentamos un print para imprimir nuestro resultado
 print(result)
 #resultado
 [output] 13
@@ -52,32 +52,45 @@ Para realizar una resta en Python seguimos los siguientes pasos:
 #primero creamos dos variables y les asignamos valores
 num1 = 20
 num2 = 15
-#despues creamos otra variable que sera donde se almacenara nuestro resultado
+#después creamos otra variable que sera donde se almacenara nuestro resultado
 result = 0
 #ahora presentamos las dos variables acompañados del operador resta
 result = (num1 - num2)
-#por ultimo presentamos un print para imprimir nuestro resultado
+#por último presentamos un print para imprimir nuestro resultado
 print(result)
 #resultado 
 [output] 5
 ```
 ### Multiplicación
-Para realizar una multiplicación en Python seguimos los siguients pasos:
+Para realizar una multiplicación en Python seguimos los siguientes pasos:
 ```python
 #primero creamos dos variables y les asignamos valores
 num1 = 15
 num2 = 3
-#despues creamos otra variable que sera donde se almacenara nuestro resultado
+#después creamos otra variable que sera donde se almacenara nuestro resultado
 result = 0
 #ahora presentamos las dos variables acompañados del operador multiplicación
 result = (num1 * num2)
-#por ultimo presentamos un print para imprimir nuestro resultado
+#por último presentamos un print para imprimir nuestro resultado
 print(result)
 #resultado 
 [output] 45
 ```
 ### División
-
+Para realizar una división en Python seguimos los siguientes pasos:
+```python
+#primero creamos dos variables y les asignamos valores
+num1 = 48
+num2 = 6
+#después creamos otra variable que sera donde se almacenara nuestro resultado
+result = 0
+#ahora presentamos las dos variables acompañados del operador división
+result = (num1 / num2)
+#por último presentamos un print para imprimir nuestro resultado
+print(result)
+#resultado 
+[output] 8
+```
 ### Módulo
 
 # Tipos de datos en Python
