@@ -125,16 +125,33 @@ print(result)
 En python un tipo de dato establece qué valores puede tomar una variable y qué operaciones se pueden realizar sobre la misma. Dentro de los mas reconocidos tenemos:
 ## Integer
 Los números enteros son aquellos que no contienen decimales, pueden ser positivos o negativos además del cero. En Python, además de otros lenguajes de programación, se les conoce como de tipo int (interger, entero) o tipo long (de largo). La diferencia entre ambos es que el long permite almacenar números más grandes, por lo que también ocupa más espacio en un programa, así que es recomendable usarlo sólo en caso de ser necesario.
+Ejemplo
 ```python
-#ejemplo de variables de valor entero
+#variables de valor entero
 x = 100
 y = 3546
 z = -345
 ```
 ## Float
-
+El tipo numérico float permite representar un número positivo o negativo con decimales, es decir, números reales. Por lo tanto si declaramos una variable y le asignamos un valor decimal, por defecto la variable será de tipo float.
+Ejemplo
+```python
+#variables de valor decimal
+x = 12.5
+y = 2.567
+z = -3.45
+```
+También se puede utilizar notación científica, y añadir una e (de exponente) para indicar un exponente en base 10. Por ejemplo:
+```python
+x = 0.1e-3
+```
+sería equivalente a 0.1 x 10-3 = 0.1 x 0.001 = 0.0001
 ## String
-
+Los cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles.
+Ejemplo:
+```python 
+print("Hola Mundo")
+```
 ## Casting en Python
 
 ## List
