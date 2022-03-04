@@ -183,7 +183,7 @@ c = a + b
 ```
 Si te das cuenta, es lógico que esto sea así, ya que en este caso b era "2.3", pero ¿y si fuera "Hola"? ¿Cómo se podría sumar eso? No tiene sentido.
 
-Conversión explicita: 
+#### Conversión explicita
 Por otro lado, podemos hacer conversiones entre tipos o cast de manera explícita haciendo uso de diferentes funciones que nos proporciona Python. Las más usadas son las siguientes:
 
 float(), str(), int()
