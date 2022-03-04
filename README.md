@@ -375,7 +375,7 @@ if a%2==0:
     print(a, "es un número par")
 else:
     print(a, "es un número impar")
-[output] 44 is an even number
+[output] 44 es un número par
 ```
 Aquí si "a" es par, se imprimirá "a es un número par", de lo contrario se imprimirá "a es un número impar".
 ### Sentencia if...elif...else
@@ -404,7 +404,23 @@ else:
 [output] Número es Negativo
 ```
 ## Ciclo For
+Los ciclos for permiten ejecutar una o varias instrucciones de forma iterativa, una vez por cada elemento en la colección.
 
+Las colecciones pueden ser de varios tipos, el for puede recibir una colección predefinida o directamente de la salida de una función.
+
+El siguiente fragmento de código es utilizado para iterar a través de un rango del 1 al 10.
+```python
+for contador in range(1,10):
+     print contador,
+[output] 1 2 3 4 5 6 7 8 9
+```
+Para iterar sobre una lista.
+```
+numeros = [0, 1, 2, 3, 4, 5]
+ for numero in numeros:
+     print numero,
+[output] 0 1 2 3 4 5
+```
 ## Ciclo While
 
 ## Break
