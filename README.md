@@ -247,7 +247,34 @@ a = str(a)
 print(type(a)) # <class 'str'>
 ```
 ## List
+Las listas en Python son un tipo de dato que permite almacenar datos de cualquier tipo. Son mutables y dinámicas, lo cual es la principal diferencia con los sets y las tuplas.
 
+### Crear listas Python
+Las listas en Python son uno de los tipos o estructuras de datos más versátiles del lenguaje, ya que permiten almacenar un conjunto arbitrario de datos. Es decir, podemos guardar en ellas prácticamente lo que sea. Si vienes de otros lenguajes de programación, se podría decir que son similares a los arrays.
+```python
+lista = [1, 2, 3, 4]
+```
+También se puede crear usando list y pasando un objeto iterable.
+```python
+lista = list("1234")
+```
+Una lista sea crea con [] separando sus elementos con comas ,. Una gran ventaja es que pueden almacenar tipos de datos distintos.
+```python
+lista = [1, "Hola", 3.67, [1, 2, 3]]
+```
+Algunas propiedades de las listas:
+
+Son ordenadas, mantienen el orden en el que han sido definidas.
+
+Pueden ser formadas por tipos arbitrarios.
+
+Pueden ser indexadas con [i].
+
+Se pueden anidar, es decir, meter una dentro de la otra.
+
+Son mutables, ya que sus elementos pueden ser modificados.
+
+Son dinámicas, ya que se pueden añadir o eliminar elementos.
 ## Tuple
 
 ## Dictionary
