@@ -264,17 +264,12 @@ lista = [1, "Hola", 3.67, [1, 2, 3]]
 ```
 Algunas propiedades de las listas:
 
-Son ordenadas, mantienen el orden en el que han sido definidas.
-
-Pueden ser formadas por tipos arbitrarios.
-
-Pueden ser indexadas con [i].
-
-Se pueden anidar, es decir, meter una dentro de la otra.
-
-Son mutables, ya que sus elementos pueden ser modificados.
-
-Son dinámicas, ya que se pueden añadir o eliminar elementos.
+* Son ordenadas, mantienen el orden en el que han sido definidas.
+* Pueden ser formadas por tipos arbitrarios.
+* Pueden ser indexadas con [i].
+* Se pueden anidar, es decir, meter una dentro de la otra.
+* Son mutables, ya que sus elementos pueden ser modificados.
+* Son dinámicas, ya que se pueden añadir o eliminar elementos.
 ## Tuple
 
 ## Dictionary
