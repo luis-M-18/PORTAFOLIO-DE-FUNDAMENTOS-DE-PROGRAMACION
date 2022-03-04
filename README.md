@@ -156,8 +156,11 @@ print("Hola Mundo")
 Hacer un cast o casting significa convertir un tipo de dato a otro. Anteriormente hemos visto tipos como los int, string o float. Pues bien, es posible convertir de un tipo a otro. Pero antes de nada, veamos los diferentes tipos de cast o conversión de tipos que se pueden hacer. Existen dos:
 Conversión implícita: Es realizada automáticamente por Python. Sucede cuando realizamos ciertas operaciones con dos tipos distintos.
 Conversión explícita: Es realizada expresamente por nosotros, como por ejemplo convertir de str a int con str().
+
 Conversión implícita
-Esta conversión de tipos es realizada automáticamente por Python, prácticamente sin que nos demos cuenta. Aún así, es importante saber lo que pasa por debajo para evitar problemas futuros. El ejemplo más sencillo donde podemos ver este comportamiento es el siguiente:
+Esta conversión de tipos es realizada automáticamente por Python, prácticamente sin que nos demos cuenta. Aún así, es importante saber lo que pasa por debajo para evitar problemas futuros. 
+
+El ejemplo más sencillo donde podemos ver este comportamiento es el siguiente:
 ```python 
 a = 1   # <class 'int'>
 b = 2.3 # <class 'float'>
@@ -165,6 +168,18 @@ a = a + b
 print(a)       # 3.3
 print(type(a)) # <class 'float'>
 ```
+"a" es un int
+"b" es un float
+Pero si sumamos a y b y almacenamos el resultado en a, podemos ver como internamente Python ha convertido el int en float para poder realizar la operación, y la variable resultante es float
+
+Sin embargo hay otros casos donde Python no es tan listo y no es capaz de realizar la conversión. Si intentamos sumar un int a un string, tendremos un error TypeError.
+```python 
+a = 1
+b = "2.3"
+c = a + b
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+Si te das cuenta, es lógico que esto sea así, ya que en este caso b era "2.3", pero ¿y si fuera "Hola"? ¿Cómo se podría sumar eso? No tiene sentido.
 ## List
 
 ## Tuple
