@@ -422,7 +422,27 @@ numeros = [0, 1, 2, 3, 4, 5]
 [output] 0 1 2 3 4 5
 ```
 ## Ciclo While
+El ciclo while permite ejecutar un bloque de instrucciones mientras se cumpla la condición dada. Primero comprueba que en efecto se cumple la condición dada y entonces, ejecuta el segmento de código correspondiente hasta que la condición no se cumpla.
 
+Para imprimir una serie de números del 0 al 10.
+```
+numero = 0
+while numero <= 10:
+     print numero
+     numero += 1
+[output]
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
 ## Break
 
 ## Continue
