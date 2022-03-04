@@ -425,7 +425,7 @@ numeros = [0, 1, 2, 3, 4, 5]
 El ciclo while permite ejecutar un bloque de instrucciones mientras se cumpla la condición dada. Primero comprueba que en efecto se cumple la condición dada y entonces, ejecuta el segmento de código correspondiente hasta que la condición no se cumpla.
 
 Para imprimir una serie de números del 0 al 10.
-```
+```python
 numero = 0
 while numero <= 10:
      print numero
