@@ -156,6 +156,15 @@ print("Hola Mundo")
 Hacer un cast o casting significa convertir un tipo de dato a otro. Anteriormente hemos visto tipos como los int, string o float. Pues bien, es posible convertir de un tipo a otro. Pero antes de nada, veamos los diferentes tipos de cast o conversión de tipos que se pueden hacer. Existen dos:
 Conversión implícita: Es realizada automáticamente por Python. Sucede cuando realizamos ciertas operaciones con dos tipos distintos.
 Conversión explícita: Es realizada expresamente por nosotros, como por ejemplo convertir de str a int con str().
+Conversión implícita
+Esta conversión de tipos es realizada automáticamente por Python, prácticamente sin que nos demos cuenta. Aún así, es importante saber lo que pasa por debajo para evitar problemas futuros. El ejemplo más sencillo donde podemos ver este comportamiento es el siguiente:
+```python 
+a = 1   # <class 'int'>
+b = 2.3 # <class 'float'>
+a = a + b
+print(a)       # 3.3
+print(type(a)) # <class 'float'>
+```
 ## List
 
 ## Tuple
