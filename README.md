@@ -271,7 +271,39 @@ Algunas propiedades de las listas:
 * Son mutables, ya que sus elementos pueden ser modificados.
 * Son dinámicas, ya que se pueden añadir o eliminar elementos.
 ## Tuple
+Las tuplas en Python son un tipo o estructura de datos que permite almacenar datos de una manera muy parecida a las listas, con la salvedad de que son inmutables.
 
+### Crear tupla Python
+Las tuplas en Python o tuples son muy similares a las listas, pero con dos diferencias. Son inmutables, lo que significa que no pueden ser modificadas una vez declaradas, y en vez de inicializarse con corchetes se hace con (). Dependiendo de lo que queramos hacer, las tuplas pueden ser más rápidas.
+```python
+tupla = (1, 2, 3)
+print(tupla) #(1, 2, 3)
+```
+También pueden declararse sin (), separando por , todos sus elementos.
+```python
+tupla = 1, 2, 3
+print(type(tupla)) #<class 'tuple'>
+print(tupla)       #(1, 2, 3)
+```
+* Operaciones con tuplas
+Como hemos comentado, las tuplas son tipos inmutables, lo que significa que una vez asignado su valor, no puede ser modificado. Si se intenta, tendremos un TypeError.
+```python
+tupla = (1, 2, 3)
+#tupla[0] = 5 # Error! TypeError
+```
+Al igual que las listas, las tuplas también pueden ser anidadas.
+```python
+tupla = 1, 2, ('a', 'b'), 3
+print(tupla)       #(1, 2, ('a', 'b'), 3)
+print(tupla[2][0]) #a
+```
+Y también es posible convertir una lista en tupla haciendo uso de al función tuple().
+```python
+lista = [1, 2, 3]
+tupla = tuple(lista)
+print(type(tupla)) #<class 'tuple'>
+print(tupla)       #(1, 2, 3)
+```
 ## Dictionary
 
 # Tomando decisiones
