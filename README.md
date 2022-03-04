@@ -344,7 +344,65 @@ Algunas propiedades de los diccionario en Python son las siguientes:
 # Tomando decisiones
 
 ## Sentencia if
+En la sentencia if sólo tienes un bloque de sentencias y este bloque se ejecuta sólo cuando la condición es True, se ignora cuando la condición es False.
+A continuación se muestra la sintaxis de la declaración if en Python:
+```python
+if condition:
+    statement(s)
+```
+El cuerpo de la declaración if en Python no está rodeado por llaves, sino que se usa la indentación. El final del cuerpo se indica con la primera línea no deseada.
+Considere el siguiente ejemplo en el que se utiliza la sentencia if:
+```python
+a = 24
+if a % 2 == 0:
+    print(a, "es un número par")
+[output] 24 es un número par
+```
+En este código, a la variable "a" se le asigna un valor primero y luego se evalúa la condición en la sentencia if. Comprueba si a es un número par o no tomando el módulo de "a" con 2 y si el resultado de % (mod) es 0 entonces el control enter en el cuerpo de if y la sentencia print se ejecuta.
+### Sentencia if....else
+La siguiente es la sintaxis de una declaración de if...else:
+```python
+if condition:
+    block of statements
+else:
+    block of statements
+```
+En if...else, si el if la condición es True, se ejecuta el bloque correspondiente de declaraciones, de lo contrario se ejecutará el bloque de declaraciones de la parte else.
+Ejemplo de declaración if...else
+```python
+a = 44
+if a%2==0:
+    print(a, "es un número par")
+else:
+    print(a, "es un número impar")
+[output] 44 is an even number
+```
+Aquí si "a" es par, se imprimirá "a es un número par", de lo contrario se imprimirá "a es un número impar".
+### Sentencia if...elif...else
+La siguiente es la sintaxis de la frase if...elif...else:
+```python
+if condition:
+    block of statements
+elif condition:
+    block of statements
+else:
+    block of statements
+```
+elif significa "else if" y puede ser usado varias veces en esta construcción if..elif..else.
 
+Cuando la condición de if se convierte en False, la condición de elif será comprobada y así sucesivamente. Cuando todas las condiciones de if y elif son False, la parte de else será ejecutada.
+
+Ejemplo sentencia if...elif...else
+```python
+a = -34
+if a > 0:
+    print("Número es Positivo")
+elif a < 0:
+    print("Número es Negativo")
+else:
+    print("Número es Cero")
+[output] Número es Negativo
+```
 ## Ciclo For
 
 ## Ciclo While
