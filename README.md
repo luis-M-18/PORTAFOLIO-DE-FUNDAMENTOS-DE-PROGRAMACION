@@ -285,7 +285,7 @@ tupla = 1, 2, 3
 print(type(tupla)) #<class 'tuple'>
 print(tupla)       #(1, 2, 3)
 ```
-* Operaciones con tuplas
+### Operaciones con tuplas
 Como hemos comentado, las tuplas son tipos inmutables, lo que significa que una vez asignado su valor, no puede ser modificado. Si se intenta, tendremos un TypeError.
 ```python
 tupla = (1, 2, 3)
@@ -305,7 +305,42 @@ print(type(tupla)) #<class 'tuple'>
 print(tupla)       #(1, 2, 3)
 ```
 ## Dictionary
+Los diccionarios en Python son una estructura de datos que permite almacenar su contenido en forma de llave y valor.
 
+### Crear diccionario Python
+Un diccionario en Python es una colección de elementos, donde cada uno tiene una llave key y un valor value. Los diccionarios se pueden crear con paréntesis {} separando con una coma cada par key: value. En el siguiente ejemplo tenemos tres keys que son el nombre, la edad y el documento.
+```python
+d1 = {
+  "Nombre": "Sara",
+  "Edad": 27,
+  "Documento": 1003882
+}
+print(d1)
+#{'Nombre': 'Sara', 'Edad': 27, 'Documento': 1003882}
+```
+Otra forma equivalente de crear un diccionario en Python es usando dict() e introduciendo los pares key: value entre paréntesis.
+```python
+d2 = dict([
+      ('Nombre', 'Sara'),
+      ('Edad', 27),
+      ('Documento', 1003882),
+])
+print(d2)
+#{'Nombre': 'Sara', 'Edad': '27', 'Documento': '1003882'}
+```
+También es posible usar el constructor dict() para crear un diccionario.
+```python
+d3 = dict(Nombre='Sara',
+          Edad=27,
+          Documento=1003882)
+print(d3)
+#{'Nombre': 'Sara', 'Edad': 27, 'Documento': 1003882}
+```
+Algunas propiedades de los diccionario en Python son las siguientes:
+
+* Son dinámicos, pueden crecer o decrecer, se pueden añadir o eliminar elementos.
+* Son indexados, los elementos del diccionario son accesibles a través del key.
+* Y son anidados, un diccionario puede contener a otro diccionario en su campo value.
 # Tomando decisiones
 
 ## Sentencia if
